@@ -1,0 +1,25 @@
+.canvas {
+  height: 600px;
+  width: 1350px;
+  margin-top: 50px;
+  margin-left: 40px;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bar-1 {
+  background-color: lightcoral;
+  width: 20px;
+  margin-left: 48%;
+}
+.bar-2 {
+  background-color: lightgreen;
+  width: 20px;
+  margin-left: 48%;
+}
+.bar-3 {
+  background-color: lightskyblue;
+  width: 20px;
+  margin-left: 48%;
+}

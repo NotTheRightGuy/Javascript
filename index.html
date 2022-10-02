@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monty Hall Problem</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family: 'Poppins', sans-serif">
+    <nav align="center " style="font-family: 'Poppins', sans-serif">
+      <h1>MONTY HALL PROBLEM</h1>
+      <p id="iteration"></p>
+    </nav>
+
+    <div class="canvas">
+      <div class="column-1">
+        Times winned after switching
+        <div id="bar-1"></div>
+        <p id="winningSwitchingNumbers"></p>
+      </div>
+      <div class="column-2">
+        Times winned without switching
+        <div id="bar-2"></div>
+        <p id="winningWithoutSwitchingNumbers"></p>
+      </div>
+      <div class="column-3">
+        Times Lost
+        <div id="bar-3"></div>
+        <p id="losingNumbers"></p>
+      </div>
+    </div>
+    <script src="./montyHall.js"></script>
+  </body>
+</html>
